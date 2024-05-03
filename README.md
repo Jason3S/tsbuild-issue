@@ -16,9 +16,11 @@ This is an issue for `composite` and `incremental` builds.
 
 ## Why is this an issue? Trust
 
-I'm sure you can understand. Trusting the tools that you rely on work as expected is important. I think TypeScript is amazing and love how it has helped put Microsoft back on the OpenSource map. But, when a tool works unpredictably, it ruins that trust.
+I'm sure you can understand. Trusting the tools that you rely on to work as expected is important. I think TypeScript is amazing and love how it has helped put Microsoft back on the Open Source map. But, when a tool works unpredictably, it ruins that trust. I trust that `tsc` will generate good code. I just don't trust that `tsc -b .` will do the right thing without deleting the `outDir` or `*.tsbuildinfo`.
 
 This issue has been around for a long time, since the `incremental` build feature was introduced. So, I didn't use it. But recently I have needed to use the `composite` build feature due to trying to support both CommonJS and ESM Modules. So it has been biting me a lot.
+
+I'm logging this issue with the hope that it gets fixed.
 
 ## Environment
 
