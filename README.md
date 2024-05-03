@@ -22,6 +22,10 @@ This issue has been around for a long time, since the `incremental` build featur
 
 I'm logging this issue with the hope that it gets fixed.
 
+## Package Manager
+
+Note: this i not a `pnpm` only issue. It also happens with NPM Workspaces. I used `pnpm` here because it was easy to demonstrate the issue.
+
 ## Environment
 
 <details>
