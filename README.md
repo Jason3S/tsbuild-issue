@@ -16,12 +16,15 @@ This is an issue for `composite` and `incremental` builds.
 
 ## Why is this an issue? Trust
 
+I'm sure you can understand. Trusting the tools that you rely on work as expected is important. I think TypeScript is amazing and love how it has helped put Microsoft back on the OpenSource map. But, when a tool works unpredictably, it ruins that trust.
 
+This issue has been around for a long time, since the `incremental` build feature was introduced. So, I didn't use it. But recently I have needed to use the `composite` build feature due to trying to support both CommonJS and ESM Modules. So it has been biting me a lot.
 
 ## Environment
 
 <details>
 <summary>VSCode About Details</summary>
+
 ```
 Version: 1.89.0 (Universal)
 Commit: b58957e67ee1e712cebf466b995adf4c5307b2bd
@@ -33,4 +36,5 @@ Node.js: 18.18.2
 V8: 12.0.267.19-electron.0
 OS: Darwin x64 23.4.0
 ```
+
 </details>
