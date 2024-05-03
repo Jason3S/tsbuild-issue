@@ -1,0 +1,12 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "@tsconfig/node18/tsconfig.json",
+    "compilerOptions": {
+    },
+    "files": [],
+    "references": [
+        { "path": "./tsconfig.core.json" },
+        // { "path": "test-packages/jest-integration/tsconfig.json" },
+        // { "path": "test-packages/vitest-integration/tsconfig.json" }
+    ]
+}

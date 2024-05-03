@@ -1,0 +1,19 @@
+{
+  "name": "tsbuild-issue",
+  "version": "1.0.0",
+  "description": "TypeScript incremental compilation issue",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b .",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@types/vscode": "1.88.0",
+    "typescript": "^5.4.5"
+  }
+}
