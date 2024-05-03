@@ -27,6 +27,7 @@ I'm sure you can understand. Trusting the tools that you rely on to work as expe
 This issue has been around for a long time, since the `incremental` build feature was introduced. So, I didn't use it. But recently I have needed to use the `composite` build feature due to trying to support both CommonJS and ESM Modules. So it has been biting me a lot.
 
 I'm logging this issue with the hope that it gets fixed.
+[Incremental Builds are not Reliable v5.4.5 · Issue #58427 · microsoft/TypeScript](https://github.com/microsoft/TypeScript/issues/58427)
 
 ## Package Manager
 
