@@ -13,6 +13,10 @@ This is an issue for `composite` and `incremental` builds.
 1. `pnpm build` -- this seems to work, but it should not because the types have changed.
 1. Delete `dist` and rebuild - Now it finds 🙁 the error.
 
+<img width="800" alt="image" src="https://github.com/Jason3S/tsbuild-issue/assets/3740137/363be599-93f8-43af-8ed8-f6f7725d54fc">
+
+<img width="800" alt="image" src="https://github.com/Jason3S/tsbuild-issue/assets/3740137/bb68f585-9abc-475d-ae21-1f2857406de9">
+
 
 ## Why is this an issue? Trust
 
