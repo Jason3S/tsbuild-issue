@@ -15,6 +15,8 @@ This is an issue for `composite` and `incremental` builds.
 
 <img width="800" alt="image" src="https://github.com/Jason3S/tsbuild-issue/assets/3740137/363be599-93f8-43af-8ed8-f6f7725d54fc">
 
+After deleting `dist`:
+
 <img width="800" alt="image" src="https://github.com/Jason3S/tsbuild-issue/assets/3740137/bb68f585-9abc-475d-ae21-1f2857406de9">
 
 
@@ -28,7 +30,7 @@ I'm logging this issue with the hope that it gets fixed.
 
 ## Package Manager
 
-Note: this i not a `pnpm` only issue. It also happens with NPM Workspaces. I used `pnpm` here because it was easy to demonstrate the issue.
+Note: this is not a `pnpm` only issue. It also happens with NPM Workspaces. I used `pnpm` here because it was easy to demonstrate the issue.
 
 ## Environment
 
